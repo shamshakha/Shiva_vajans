@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bacck">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/head"
+                android:layout_width="225dp"
+                android:layout_height="30dp"
+                android:text="Om Namah Shivay"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.022" />
+
+            <Button
+                android:id="@+id/mritunjay"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Maha Mrityunjaya Mantra"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/head"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/tandav"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Shiv Tandav Stotram"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mritunjay"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/jyotirling"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Jyotirling Ka Dhyan "
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tandav"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/dwadash"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Shree Dwadasha Jyotirlingam Stotram"
+                android:textColor="#000080"
+                android:textSize="13dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jyotirling"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/bolo_bolo"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Bolo Bolo Sab Mil Bolo Om Namah Shivaya"
+                android:textColor="#000080"
+                android:textSize="13dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dwadash"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/satyam"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Satyam Shivam Sundaram"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bolo_bolo"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/ekbar"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Ek Baar Shree Bhole Bhandaari"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/satyam"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/karpur"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Karpur Gauram Karunavtaaram "
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ekbar"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/shankar_shiv"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Shankar Shiv Bhole"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/karpur"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/panchyaskari"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Shiva Panchakshara Stotram "
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shankar_shiv"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/sadakshara"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Shiva Shadakshara Stotram"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/panchyaskari"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/shiv_omkara"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Jai Shiv Omkara"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sadakshara"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/rudra"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Shiva Rudrastakam Stotram"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shiv_omkara"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/namaskaratha_mantra"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Namaskaratha Mantra"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rudra"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/maha_shivartri"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Maha Shivatri"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/namaskaratha_mantra"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/om"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Om Namah Shivaay"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/maha_shivartri"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/damru"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Aisa Damru Bajaya BholeNath Ne"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/om"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/lagi_teri"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Laagi Lagan Shankara "
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/damru"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/namo_namo"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Namo namo ji Shankara"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lagi_teri"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/shamshan"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Shamshaan"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/namo_namo"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/bhola_bhandari"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Bhola Bhandari "
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shamshan"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/jaikal"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Jai Kal Mahakal"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bhola_bhandari"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/bam_lahiri"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Babam Bam "
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jaikal"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/gayatri"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Rudra Gayatri Mantra"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bam_lahiri"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/shankara"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Sankarabharanam "
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gayatri"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/stuti"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="swarNamAlA stuti"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shankara"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/pravu"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Pravu mere man ko "
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/stuti"
+                app:layout_constraintVertical_bias="0.005" />
+            <Button
+                android:id="@+id/chalisa"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Shiv Chalisa"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pravu"
+                app:layout_constraintVertical_bias="0.005" />
+            <Button
+                android:id="@+id/natraj"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Hey Natrajan Antaryami"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/chalisa"
+                app:layout_constraintVertical_bias="0.005" />
+            <Button
+                android:id="@+id/kailash"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Kailash mein baje Damru"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/natraj"
+                app:layout_constraintVertical_bias="0.005" />
+            <Button
+                android:id="@+id/yagya"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Yagyaswaroopaya"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kailash"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <Button
+                android:id="@+id/jyotirlingg"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Jyotirling Kotha"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/yagya"
+                app:layout_constraintVertical_bias="0.005" />
+            <Button
+                android:id="@+id/shiv"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#82CAFF"
+                android:text="Shiv Amritvaani"
+                android:textColor="#000080"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jyotirlingg"
+                app:layout_constraintVertical_bias="0.005" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

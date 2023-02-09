@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/poster"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shiva_vajans"
+        tools:targetApi="31">
+        <activity
+            android:name=".No_internet"
+            android:exported="false" />
+        <activity
+            android:name=".Yagya"
+            android:exported="false" />
+        <activity
+            android:name=".Kailash"
+            android:exported="false" />
+        <activity
+            android:name=".Natraj"
+            android:exported="false" />
+        <activity
+            android:name=".Chalisa"
+            android:exported="false" />
+        <activity
+            android:name=".Pravu"
+            android:exported="false" />
+        <activity
+            android:name=".Stuti"
+            android:exported="false" />
+        <activity
+            android:name=".Shankara"
+            android:exported="false" />
+        <activity
+            android:name=".Gayatri"
+            android:exported="false" />
+        <activity
+            android:name=".Bam_lahri"
+            android:exported="false" />
+        <activity
+            android:name=".Jaikal"
+            android:exported="false" />
+        <activity
+            android:name=".Bhola_bhandari"
+            android:exported="false" />
+        <activity
+            android:name=".Shamshan"
+            android:exported="false" />
+        <activity
+            android:name=".Namo_namo"
+            android:exported="false"
+            android:label="@string/title_activity_namo_namo"
+            android:theme="@style/Theme.Shiva_vajans.NoActionBar" />
+        <activity
+            android:name=".Lagi_teri"
+            android:exported="false" />
+        <activity
+            android:name=".Jyotirlingg"
+            android:exported="false" />
+        <activity
+            android:name=".Shiv"
+            android:exported="false" />
+        <activity
+            android:name=".Damru"
+            android:exported="false" />
+        <activity
+            android:name=".Om"
+            android:exported="false" />
+        <activity
+            android:name=".Maha_shivratri"
+            android:exported="false" />
+        <activity
+            android:name=".Namaskaratha_mantra"
+            android:exported="false" />
+        <activity
+            android:name=".Rudrastak"
+            android:exported="false" />
+        <activity
+            android:name=".Shiv_omkara"
+            android:exported="false" />
+        <activity
+            android:name=".Sadakshara"
+            android:exported="false" />
+        <activity
+            android:name=".Panchyaskari"
+            android:exported="false" />
+        <activity
+            android:name=".Shankar_shiv"
+            android:exported="false" />
+        <activity
+            android:name=".Karpur"
+            android:exported="false" />
+        <activity
+            android:name=".Ekbar"
+            android:exported="false" />
+        <activity
+            android:name=".Satyam_shivam"
+            android:exported="false" />
+        <activity
+            android:name=".Bolo_bolo"
+            android:exported="false" />
+        <activity
+            android:name=".Dwadash"
+            android:exported="false" />
+        <activity
+            android:name=".Contact"
+            android:exported="false" />
+        <activity
+            android:name=".Jyotirling_ka_dhyan"
+            android:exported="false" />
+        <activity
+            android:name=".Shiv_tandav"
+            android:exported="false" />
+        <activity
+            android:name=".Mritunjay"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Shiva_vajans">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
